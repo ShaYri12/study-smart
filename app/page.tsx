@@ -1,5 +1,11 @@
-import Image from "next/image";
+import Hero from "./components/Home/Hero";
+import Services from "./components/Home/Services";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <main className="min-h-screen">
+      <Hero />
+      <Services />
+    </main>
+  );
 }
